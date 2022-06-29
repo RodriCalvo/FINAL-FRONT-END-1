@@ -609,5 +609,6 @@ footer {
     .copyright {
         position: relative;
         top: 18rem;
+        right: 1.5rem;
     }
 }
