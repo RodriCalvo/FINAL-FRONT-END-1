@@ -377,8 +377,15 @@ footer {
     color: #F3603B;
 }
 
+.listasFooter{
+    display: flex;
+    flex-direction: row;
+}
+
 .ul1 {
     list-style-type: none;
+    position: relative;
+    right: 5rem;
 }
 
 .ul1 a {
@@ -389,6 +396,22 @@ footer {
 }
 
 .ul1 a:hover {
+    color: #F3603B;
+}
+
+.ul2 {
+    list-style-type: none;position: relative;
+    left: 3rem;
+}
+
+.ul2 a {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.ul2 a:hover {
     color: #F3603B;
 }
 
