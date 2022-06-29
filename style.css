@@ -549,12 +549,12 @@ footer {
 
     footer {
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .social {
         position: relative;
         bottom: 10rem;
-        left: 1rem;
     }
 
     .listasFooter{
@@ -562,17 +562,14 @@ footer {
         flex-direction: row;
         position: relative;
         bottom: 5rem;
-        right: 1.5rem;
     }
 
-    .imgf {
-        position: relative;
-        left: 1.5rem;
+    .ul1 a{
+        font-size: .85rem;
     }
 
     .copyright {
         position: relative;
         top: 18rem;
-        right: .9rem;
     }
 }
