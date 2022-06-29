@@ -59,7 +59,7 @@ header {
 .start:hover {
     background: #242E52;
     transition: 1s;
-    transform:scale(1.2);
+    transform: scale(1.2);
 }
 
 .articleContainer {
@@ -392,21 +392,6 @@ footer {
     color: #F3603B;
 }
 
-.ul2 {
-    list-style-type: none;
-}
-
-.ul2 a {
-    color: white;
-    text-decoration: none;
-    line-height: 2rem;
-    font-family: 'Be Vietnam Pro', sans-serif;
-}
-
-.ul2 a:hover {
-    color: #F3603B;
-}
-
 .conteiner {
     display: flex;
     flex-direction: row;
@@ -566,40 +551,28 @@ footer {
         flex-direction: column-reverse;
     }
 
-    .ul1{
+    .social {
         position: relative;
-        bottom: 12rem;
-        right: 1rem;
-    }
-
-    .ul1 a{
-        font-size: .8rem;
-    }
-
-    .ul2 a{
-        font-size: .8rem;
-    }
-
-    .ul2{
-        position: relative;
-        left: 7rem;
-        bottom: 4rem;
-    }
-
-    .social{
-        position: relative;
-        bottom: 14rem;
+        bottom: 10rem;
         left: 1rem;
     }
 
-    .imgf{
+    .listasFooter{
+        display: flex;
+        flex-direction: row;
         position: relative;
-        bottom: 4rem;
+        bottom: 5rem;
+        right: 1.5rem;
+    }
+
+    .imgf {
+        position: relative;
         left: 1.5rem;
     }
 
-    .copyright{
+    .copyright {
         position: relative;
-        top: 26rem;
+        top: 18rem;
+        right: .9rem;
     }
 }
