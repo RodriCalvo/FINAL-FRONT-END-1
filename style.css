@@ -1,3 +1,15 @@
+body{
+    background-image: url(./IMAGENES/pattern.PNG);
+    background-repeat: no-repeat;
+    background-position: 55rem -5rem;
+}
+
+main{
+    background-image: url(./IMAGENES/pattern.PNG);
+    background-repeat: no-repeat;
+    background-position: -15rem 65rem;   
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -107,11 +119,12 @@ h1{
 .caja{
     display: flex;
     flex-direction: column;
-    border: .03rem solid #999;
+    border: .03rem solid white;
     border-radius: .5rem;
     width: 13rem;
     height: 12rem;
     padding: .8rem;
+    background-color: white;
 }
 
 .span1{
@@ -364,6 +377,14 @@ footer{
 
 @media screen and (min-width:350px) and (max-width:450px) {
 
+    body{
+        background-position: 4rem -14rem;
+    }
+    
+    main{
+        background-position: 10rem 20rem;
+    }
+
     header{
         flex-direction: column;
         justify-content: center;
@@ -378,7 +399,7 @@ footer{
     }
 
     .articleContainer{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         margin: 0;
         padding: 0 1rem 0 1rem;
@@ -389,6 +410,8 @@ footer{
         flex-direction: column;
         align-items: center;
         width: 100%;
+        position: relative;
+        bottom: 43rem;
     }
 
     h1{
@@ -404,8 +427,8 @@ footer{
     }
 
     .secondTitle{
-        font-size: 1.3rem;
-        padding-top: 2rem;
+        font-size: 1.6rem;
+        padding-top: 4rem;
         padding-right: 1rem;
         text-align: center;
     }
@@ -416,16 +439,40 @@ footer{
     }
 
     .cajasImagenes{
-        flex-direction: column;
+        transform:scale(.6);
+    }
+
+    .caja{
+        transform:scale(.7);
+        position: relative;
+        bottom: 5.8rem;
     }
 
     ol{
         padding: 0rem;
         margin-top: 5rem;
+        position: relative;
+        top: 40rem;
+    }
+
+    .botonLista{
+        background-color: #fff0e6;
+        height: 2.1rem;
     }
    
     h3{
-        padding-left: 1rem;
+        padding-left: .8rem;
+        font-size: .8rem;
+        position: relative;
+        bottom: .3rem;
+    }
+
+    .boton{
+        width: 5.2rem;
+        height: 2rem;
+        position: relative;
+        bottom: .7rem;
+        right: .5rem;
     }
     
     .rigthText{
@@ -433,14 +480,14 @@ footer{
         margin-right: 0rem;
     }
     
-    .boton{
-        width: 5.2rem;
-        height: 2rem;
+    .tituloAbajo{
+        font-size: 2rem;
+        margin-top: 6rem;
     }
 
-    .tituloAbajo{
-        font-size: 1.2rem;
-        margin-top: 5rem;
+    .articleContainer2{
+        position: relative;
+        bottom: 4rem;
     }
   
     .cajaAv{
@@ -448,7 +495,7 @@ footer{
     }
 
     .av {
-        margin: 1rem;
+        margin: 3rem;
     }
 
     .textoAbajo{
