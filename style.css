@@ -48,6 +48,7 @@ header {
 .start a {
     text-decoration: none;
     color: white;
+    font-family: 'Be Vietnam Pro',serif;
     position: relative;
     top: 30%;
 }
@@ -220,6 +221,7 @@ h3 {
 .boton a {
     text-decoration: none;
     color: white;
+    font-family: 'Lato',serif;
     position: relative;
     top: 20%;
 }
@@ -320,6 +322,7 @@ h4 {
 
 .ultimoStart a {
     text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
     color: #F3603B;
     position: relative;
     top: 30%;
