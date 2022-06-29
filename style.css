@@ -439,13 +439,13 @@ footer{
     }
 
     .cajasImagenes{
-        transform:scale(.6);
+        transform:scale(.65);
     }
 
     .caja{
-        transform:scale(.7);
+        transform:scale(.8);
         position: relative;
-        bottom: 5.8rem;
+        bottom: 4.8rem;
     }
 
     ol{
@@ -472,7 +472,7 @@ footer{
         height: 2rem;
         position: relative;
         bottom: .8rem;
-        right: .5rem;
+        right: .6rem;
     }
     
     .rigthText{
