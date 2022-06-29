@@ -1,16 +1,16 @@
-body{
+body {
     background-image: url(./IMAGENES/pattern.PNG);
     background-repeat: no-repeat;
     background-position: 55rem -5rem;
 }
 
-main{
+main {
     background-image: url(./IMAGENES/pattern.PNG);
     background-repeat: no-repeat;
-    background-position: -15rem 65rem;   
+    background-position: -15rem 65rem;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -18,13 +18,13 @@ header{
     margin-top: 2rem;
 }
 
-.headerList{
+.headerList {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.headerList a{
+.headerList a {
     padding: 0 .625rem;
     text-decoration: none;
     color: #242E52;
@@ -32,11 +32,11 @@ header{
     font-size: 1rem;
 }
 
-.headerList a:hover{
+.headerList a:hover {
     color: #B3B2B7;
 }
 
-.start{
+.start {
     width: 9.375rem;
     height: 3.125rem;
     border-radius: 1.875rem;
@@ -44,38 +44,42 @@ header{
     text-align: center;
     box-shadow: 2px 2px 5px;
 }
-.start a{
-    text-decoration: none;  
+
+.start a {
+    text-decoration: none;
     color: white;
     position: relative;
     top: 30%;
 }
-.start a:hover{
+
+.start a:hover {
     color: #F3603B;
 }
 
-.start:hover{
-    background:#242E52;
+.start:hover {
+    background: #242E52;
+    transition: 1s;
+    transform:scale(1.2);
 }
 
-.articleContainer{
+.articleContainer {
     display: flex;
     flex-direction: row;
     margin: 3rem 7.5rem 0 7.5rem;
 }
 
-.left{
+.left {
     width: 50%;
 }
 
-h1{
+h1 {
     font-size: 3.6rem;
     padding-right: 5rem;
     color: #242E52;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.leftText{
+.leftText {
     font-family: 'Be Vietnam Pro', sans-serif;
     padding-right: 15rem;
     margin-bottom: 3rem;
@@ -83,7 +87,7 @@ h1{
     line-height: 1.5rem;
 }
 
-.secondTitle{
+.secondTitle {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 2.4rem;
     color: #242E52;
@@ -91,32 +95,32 @@ h1{
     padding-right: 12rem;
 }
 
-.rigth{
+.rigth {
     width: 50%;
 }
 
-.allboxes{
+.allboxes {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cajasImagenes{
+.cajasImagenes {
     display: flex;
     flex-direction: row;
 }
 
-.img1{
+.img1 {
     padding-bottom: .7rem;
     padding-right: .2rem;
     padding-top: .75rem;
 }
 
-.img2{
+.img2 {
     padding: .4rem;
 }
 
-.caja{
+.caja {
     display: flex;
     flex-direction: column;
     border: .03rem solid white;
@@ -127,14 +131,14 @@ h1{
     background-color: white;
 }
 
-.span1{
+.span1 {
     width: 100%;
     height: 50%;
     background-color: #FAFAFA;
     border-radius: .3rem;
 }
 
-.texto1span{
+.texto1span {
     padding-left: 1rem;
     color: #343A40;
     font-size: 2.5rem;
@@ -142,7 +146,7 @@ h1{
     font-weight: bold;
 }
 
-.spanx2{
+.spanx2 {
     display: flex;
     justify-content: space-between;
     display: flex;
@@ -151,13 +155,13 @@ h1{
     padding-top: 1rem;
 }
 
-.span2{
+.span2 {
     width: 46%;
     background-color: #F3603B;
     border-radius: .3rem;
 }
 
-.texto2span{
+.texto2span {
     padding-top: 1.5rem;
     padding-left: 1.25rem;
     font-size: 1.1rem;
@@ -167,13 +171,13 @@ h1{
 
 }
 
-.span3{
+.span3 {
     width: 46%;
     background-color: #FAFAFA;
     border-radius: .3rem;
 }
 
-.texto3span{
+.texto3span {
     padding-top: 1.5rem;
     padding-left: 1.25rem;
     font-size: 1.1rem;
@@ -183,19 +187,19 @@ h1{
 
 }
 
-ol{
+ol {
     padding-top: 12.5rem;
     list-style-type: none;
 }
 
-h3{
+h3 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 1rem;
     color: #323851;
     padding-left: 2rem;
 }
 
-.rigthText{
+.rigthText {
     font-family: 'Be Vietnam Pro', sans-serif;
     color: #B3B2B7;
     margin-left: 5.3rem;
@@ -204,7 +208,7 @@ h3{
 }
 
 
-.boton{
+.boton {
     width: 3.2rem;
     height: 2rem;
     border-radius: 1.875rem;
@@ -212,23 +216,48 @@ h3{
     text-align: center;
     margin-top: .8rem;
 }
-.boton a{
+
+.boton a {
     text-decoration: none;
     color: white;
     position: relative;
     top: 20%;
 }
 
-.boton:hover{
+.boton:hover {
     background: #242E52;
+    transition: 1s;
+    transform: scale(1.2);
 }
 
-.botonLista{
+.boton2 {
+    width: 3.2rem;
+    height: 2rem;
+    border-radius: 1.875rem;
+    background-color: #F3603B;
+    text-align: center;
+    margin-top: .8rem;
+}
+
+.boton2 a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20%;
+}
+
+.boton2:hover {
+    background: #242E52;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.botonLista {
     display: flex;
     flex-direction: row;
 }
 
-.tituloAbajo{
+.tituloAbajo {
     text-align: center;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 1.8rem;
@@ -236,7 +265,7 @@ h3{
     padding-bottom: 5rem;
 }
 
-.cajaAv{
+.cajaAv {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -247,14 +276,14 @@ h3{
     margin: 1rem;
 }
 
-.avatar{
+.avatar {
     display: flex;
     justify-content: center;
     position: relative;
     bottom: 2.2rem;
 }
 
-h4{
+h4 {
     text-align: center;
     position: relative;
     bottom: 2.2rem;
@@ -262,7 +291,7 @@ h4{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.textoAbajo{
+.textoAbajo {
     text-align: center;
     position: relative;
     bottom: 2.2rem;
@@ -274,13 +303,13 @@ h4{
     line-height: 1.5rem;
 }
 
-.boton3{
+.boton3 {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
 }
 
-.ultimoStart{
+.ultimoStart {
     width: 9.375rem;
     height: 3.125rem;
     border-radius: 1.875rem;
@@ -288,26 +317,31 @@ h4{
     text-align: center;
     box-shadow: 2px 2px 5px;
 }
-.ultimoStart a{
+
+.ultimoStart a {
     text-decoration: none;
     color: #F3603B;
     position: relative;
     top: 30%;
 }
-.ultimoStart a:hover{
+
+.ultimoStart a:hover {
     color: white;
 }
-.ultimoStart:hover{
-    background:#242E52;
+
+.ultimoStart:hover {
+    background: #242E52;
+    transition: 1s;
+    transform: scale(1.2);
 }
 
-.simplify{
+.simplify {
     color: white;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 2rem;
 }
 
-.cajaNaranja{
+.cajaNaranja {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -317,57 +351,77 @@ h4{
     padding: 2rem;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     background-color: #1E1E26;
     padding: 1rem 3rem 3rem 3rem;
 }
-.sociales{
+
+.sociales {
+    margin-top: 1.5rem;
+}
+
+.social {
     margin-top: 2rem;
 }
-.social{
-    margin-top: 2rem;
-}
-.social a{
+
+.social a {
     color: white;
     padding: .5rem;
     font-size: 1.5rem;
 }
 
-.social a:hover{
+.social a:hover {
     color: #F3603B;
 }
 
-.ul1{
+.ul1 {
     list-style-type: none;
 }
-.ul1 a{
+
+.ul1 a {
     color: white;
     text-decoration: none;
     line-height: 2rem;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
-.ul1 a:hover{
-    color:#F3603B;
+
+.ul1 a:hover {
+    color: #F3603B;
 }
 
-.conteiner{
+.ul2 {
+    list-style-type: none;
+}
+
+.ul2 a {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.ul2 a:hover {
+    color: #F3603B;
+}
+
+.conteiner {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: .5rem;
 }
 
-.conteiner input{
+.conteiner input {
     margin-right: .5rem;
     margin-top: .8rem;
     border: .6rem solid white;
     border-radius: 2rem;
 }
 
-.copyright{
+.copyright {
     color: #8C8C94;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: .7rem;
@@ -377,20 +431,20 @@ footer{
 
 @media screen and (min-width:350px) and (max-width:450px) {
 
-    body{
+    body {
         background-position: 4rem -20rem;
     }
-    
-    main{
+
+    main {
         background-position: 10rem 20rem;
     }
 
-    header{
+    header {
         flex-direction: column;
         justify-content: center;
     }
 
-    .headerList a{
+    .headerList a {
         padding: 0 .4rem;
         font-size: .6rem;
         text-align: center;
@@ -398,14 +452,14 @@ footer{
         right: 1rem;
     }
 
-    .articleContainer{
+    .articleContainer {
         flex-direction: column-reverse;
         align-items: center;
         margin: 0;
         padding: 0 1rem 0 1rem;
     }
 
-    .left{
+    .left {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -414,83 +468,83 @@ footer{
         bottom: 43rem;
     }
 
-    h1{
+    h1 {
         font-size: 2.3rem;
         padding: 0rem;
         text-align: center;
     }
 
-    .leftText{
+    .leftText {
         padding: 0rem 1rem 0rem 1rem;
         margin: 0 2rem 2rem 2rem;
         text-align: center;
     }
 
-    .secondTitle{
+    .secondTitle {
         font-size: 1.6rem;
         padding-top: 4rem;
         padding-right: 1rem;
         text-align: center;
     }
 
-    .rigth{
+    .rigth {
         padding: 0rem;
         width: 100%;
     }
 
-    .cajasImagenes{
-        transform:scale(.65);
+    .cajasImagenes {
+        transform: scale(.65);
     }
 
-    .caja{
-        transform:scale(.8);
+    .caja {
+        transform: scale(.8);
         position: relative;
         bottom: 4.8rem;
     }
 
-    ol{
+    ol {
         padding: 0rem;
         margin-top: 5rem;
         position: relative;
         top: 40rem;
     }
 
-    .botonLista{
+    .botonLista {
         background-color: #fff0e6;
         height: 2rem;
     }
-   
-    h3{
+
+    h3 {
         padding-left: .8rem;
         font-size: .8rem;
         position: relative;
-        bottom: .4rem;
+        bottom: .3rem;
     }
 
-    .boton{
+    .boton {
         width: 5.2rem;
         height: 2rem;
         position: relative;
         bottom: .8rem;
-        right: .6rem;
+        right: .5rem;
     }
-    
-    .rigthText{
+
+    .rigthText {
         margin-left: 0rem;
         margin-right: 0rem;
     }
-    
-    .tituloAbajo{
+
+    .tituloAbajo {
         font-size: 2rem;
         margin-top: 6rem;
     }
 
-    .articleContainer2{
+    .articleContainer2 {
         position: relative;
         bottom: 4rem;
     }
-  
-    .cajaAv{
+
+    .cajaAv {
         flex-direction: column;
     }
 
@@ -498,12 +552,54 @@ footer{
         margin: 3rem;
     }
 
-    .textoAbajo{
+    .textoAbajo {
         padding-right: 0rem;
         padding-left: 0rem;
     }
-    
+
+    .cajaNaranja {
+        flex-direction: column;
+        text-align: center;
+    }
+
     footer {
-            flex-direction: column;
-}
+        flex-direction: column-reverse;
+    }
+
+    .ul1{
+        position: relative;
+        bottom: 12rem;
+        right: 1rem;
+    }
+
+    .ul1 a{
+        font-size: .8rem;
+    }
+
+    .ul2 a{
+        font-size: .8rem;
+    }
+
+    .ul2{
+        position: relative;
+        left: 7rem;
+        bottom: 4rem;
+    }
+
+    .social{
+        position: relative;
+        bottom: 14rem;
+        left: 1rem;
+    }
+
+    .imgf{
+        position: relative;
+        bottom: 4rem;
+        left: 1.5rem;
+    }
+
+    .copyright{
+        position: relative;
+        top: 26rem;
+    }
 }
