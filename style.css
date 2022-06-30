@@ -444,7 +444,7 @@ footer {
     margin-top: 4rem;
 }
 
-@media screen and (min-width:320px) and (max-width:450px) {
+@media screen and (min-width:350px) and (max-width:450px) {
 
     body {
         background-position: 4rem -8rem;
@@ -533,7 +533,7 @@ footer {
     }
 
     h3 {
-        font-size: .8rem;
+        font-size: .7rem;
         position: relative;
         bottom: .3rem;
         right: 3rem;
