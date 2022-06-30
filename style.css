@@ -63,6 +63,10 @@ header {
     transform: scale(1.2);
 }
 
+ .start:active{
+    opacity: 50%;
+ }
+
 .articleContainer {
     display: flex;
     flex-direction: row;
@@ -236,10 +240,12 @@ h3 {
 .boton2 {
     width: 3.2rem;
     height: 2rem;
+    border: 1px solid black;
     border-radius: 1.875rem;
     background-color: #F3603B;
     text-align: center;
     margin-top: .8rem;
+    cursor: pointer;
 }
 
 .boton2 a {
@@ -444,6 +450,8 @@ footer {
     margin-top: 4rem;
 }
 
+/*--------------------------------- @media ------------------------------*/
+
 @media screen and (min-width:350px) and (max-width:450px) {
 
     body {
@@ -535,7 +543,7 @@ footer {
     h3 {
         font-size: .7rem;
         position: relative;
-        bottom: .3rem;
+        bottom: .2rem;
         right: 3rem;
     }
 
